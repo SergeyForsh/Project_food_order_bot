@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39ed3fea-78f7-40d1-a0cc-2ce8b29a45e2" name="Changes" comment="" />
+    <list default="true" id="39ed3fea-78f7-40d1-a0cc-2ce8b29a45e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bd/create_bd.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea/food-order-bot-main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea/inspectionProfiles/profiles_settings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea/misc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea/modules.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea/vcs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bd/create_bd_sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_bot.db" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -22,7 +34,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.env" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/bot.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/food_bot.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/idea/food-order-bot-main.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/idea/inspectionProfiles/profiles_settings.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/idea/misc.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/idea/modules.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/idea/vcs.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -37,13 +55,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "Python.base.executor": "Run",
+    "Python.bot.executor": "Run",
     "Python.food_bot.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.base">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ПРОГИ\Python\Project_food_order_bot\idea" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.food_bot">
     <configuration name="base" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Project_food_order_bot" />
       <option name="ENV_FILES" value="" />
@@ -58,6 +83,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Project_food_order_bot" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,8 +159,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.base" />
         <item itemvalue="Python.food_bot" />
+        <item itemvalue="Python.bot" />
+        <item itemvalue="Python.base" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +184,7 @@
     <servers />
   </component>
   <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.db" />
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
 </project>
